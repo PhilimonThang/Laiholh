@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0A0B3FEC-311E-4698-90A6-7E076791E774</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0A0B3FEC-311E-4698-90A6-7E076791E774.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Laiholh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChinKeyboard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archive ChinKeyboard</string>
+			<key>timeStartedRecording</key>
+			<real>716051191.23641801</real>
+			<key>timeStoppedRecording</key>
+			<real>716051225.78328204</real>
+			<key>title</key>
+			<string>Archive ChinKeyboard</string>
+			<key>uniqueIdentifier</key>
+			<string>0A0B3FEC-311E-4698-90A6-7E076791E774</string>
+		</dict>
 		<key>11AA9E39-1841-4A22-B0E5-F90247ACE2E1</key>
 		<dict>
 			<key>className</key>
@@ -81,6 +115,40 @@
 			<string>Build for Previews ChinKeyboard</string>
 			<key>uniqueIdentifier</key>
 			<string>4C306AF9-BD40-4E98-8AEF-C79AD8C158A9</string>
+		</dict>
+		<key>78968710-00F3-4F98-9BD9-351408E43097</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78968710-00F3-4F98-9BD9-351408E43097.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Laiholh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChinKeyboard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archive ChinKeyboard</string>
+			<key>timeStartedRecording</key>
+			<real>716051865.49233902</real>
+			<key>timeStoppedRecording</key>
+			<real>716051888.22991705</real>
+			<key>title</key>
+			<string>Archive ChinKeyboard</string>
+			<key>uniqueIdentifier</key>
+			<string>78968710-00F3-4F98-9BD9-351408E43097</string>
 		</dict>
 	</dict>
 </dict>
