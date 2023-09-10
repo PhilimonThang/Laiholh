@@ -5,6 +5,52 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>455FB311-23BA-4C65-8914-763D9DF45219</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>11AA9E39-1841-4A22-B0E5-F90247ACE2E1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ChinKeyboard-2023.09.10_10-35-20--0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Laiholh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChinKeyboard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ChinKeyboard</string>
+			<key>timeStartedRecording</key>
+			<real>716049320.70784295</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ChinKeyboard</string>
+			<key>uniqueIdentifier</key>
+			<string>455FB311-23BA-4C65-8914-763D9DF45219</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

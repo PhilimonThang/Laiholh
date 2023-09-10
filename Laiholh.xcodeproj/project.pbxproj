@@ -11,7 +11,35 @@
 		22A5D4EF2AAD0CAE00CC1290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D4EE2AAD0CAE00CC1290 /* ContentView.swift */; };
 		22A5D4F12AAD0CB500CC1290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5D4F02AAD0CB500CC1290 /* Assets.xcassets */; };
 		22A5D4F42AAD0CB500CC1290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5D4F32AAD0CB500CC1290 /* Preview Assets.xcassets */; };
+		22A5D5012AAD0CF300CC1290 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D5002AAD0CF300CC1290 /* KeyboardViewController.swift */; };
+		22A5D5052AAD0CF300CC1290 /* ChinKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 22A5D4FE2AAD0CF200CC1290 /* ChinKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22A5D50C2AAD0D7D00CC1290 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A5D50A2AAD0D7C00CC1290 /* Keyboard.xib */; };
+		22A5D50D2AAD0D7D00CC1290 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D50B2AAD0D7C00CC1290 /* Constants.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A5D5032AAD0CF300CC1290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A5D4E12AAD0CAE00CC1290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A5D4FD2AAD0CF200CC1290;
+			remoteInfo = ChinKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22A5D5092AAD0CF400CC1290 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22A5D5052AAD0CF300CC1290 /* ChinKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		22A5D4E92AAD0CAE00CC1290 /* Laiholh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laiholh.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +47,22 @@
 		22A5D4EE2AAD0CAE00CC1290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22A5D4F02AAD0CB500CC1290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A5D4F32AAD0CB500CC1290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22A5D4FE2AAD0CF200CC1290 /* ChinKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChinKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A5D5002AAD0CF300CC1290 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		22A5D5022AAD0CF300CC1290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A5D50A2AAD0D7C00CC1290 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		22A5D50B2AAD0D7C00CC1290 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22A5D4E62AAD0CAE00CC1290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A5D4FB2AAD0CF200CC1290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				22A5D4EB2AAD0CAE00CC1290 /* Laiholh */,
+				22A5D4FF2AAD0CF300CC1290 /* ChinKeyboard */,
 				22A5D4EA2AAD0CAE00CC1290 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				22A5D4E92AAD0CAE00CC1290 /* Laiholh.app */,
+				22A5D4FE2AAD0CF200CC1290 /* ChinKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +109,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		22A5D4FF2AAD0CF300CC1290 /* ChinKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				22A5D5002AAD0CF300CC1290 /* KeyboardViewController.swift */,
+				22A5D5022AAD0CF300CC1290 /* Info.plist */,
+				22A5D50B2AAD0D7C00CC1290 /* Constants.swift */,
+				22A5D50A2AAD0D7C00CC1290 /* Keyboard.xib */,
+			);
+			path = ChinKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +130,34 @@
 				22A5D4E52AAD0CAE00CC1290 /* Sources */,
 				22A5D4E62AAD0CAE00CC1290 /* Frameworks */,
 				22A5D4E72AAD0CAE00CC1290 /* Resources */,
+				22A5D5092AAD0CF400CC1290 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				22A5D5042AAD0CF300CC1290 /* PBXTargetDependency */,
 			);
 			name = Laiholh;
 			productName = Laiholh;
 			productReference = 22A5D4E92AAD0CAE00CC1290 /* Laiholh.app */;
 			productType = "com.apple.product-type.application";
+		};
+		22A5D4FD2AAD0CF200CC1290 /* ChinKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A5D5062AAD0CF400CC1290 /* Build configuration list for PBXNativeTarget "ChinKeyboard" */;
+			buildPhases = (
+				22A5D4FA2AAD0CF200CC1290 /* Sources */,
+				22A5D4FB2AAD0CF200CC1290 /* Frameworks */,
+				22A5D4FC2AAD0CF200CC1290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinKeyboard;
+			productName = ChinKeyboard;
+			productReference = 22A5D4FE2AAD0CF200CC1290 /* ChinKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +170,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					22A5D4E82AAD0CAE00CC1290 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					22A5D4FD2AAD0CF200CC1290 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -116,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				22A5D4E82AAD0CAE00CC1290 /* Laiholh */,
+				22A5D4FD2AAD0CF200CC1290 /* ChinKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +203,14 @@
 			files = (
 				22A5D4F42AAD0CB500CC1290 /* Preview Assets.xcassets in Resources */,
 				22A5D4F12AAD0CB500CC1290 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A5D4FC2AAD0CF200CC1290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A5D50C2AAD0D7D00CC1290 /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +226,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22A5D4FA2AAD0CF200CC1290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A5D5012AAD0CF300CC1290 /* KeyboardViewController.swift in Sources */,
+				22A5D50D2AAD0D7D00CC1290 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A5D5042AAD0CF300CC1290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A5D4FD2AAD0CF200CC1290 /* ChinKeyboard */;
+			targetProxy = 22A5D5032AAD0CF300CC1290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		22A5D4F52AAD0CB500CC1290 /* Debug */ = {
@@ -197,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -267,6 +368,7 @@
 		22A5D4F82AAD0CB500CC1290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,6 +382,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +399,7 @@
 		22A5D4F92AAD0CB500CC1290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +413,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +421,58 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PhilT.Laiholh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22A5D5072AAD0CF400CC1290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 987C2XLH5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChinKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChinKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhilT.Laiholh.ChinKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A5D5082AAD0CF400CC1290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 987C2XLH5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChinKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChinKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhilT.Laiholh.ChinKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +496,15 @@
 			buildConfigurations = (
 				22A5D4F82AAD0CB500CC1290 /* Debug */,
 				22A5D4F92AAD0CB500CC1290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A5D5062AAD0CF400CC1290 /* Build configuration list for PBXNativeTarget "ChinKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A5D5072AAD0CF400CC1290 /* Debug */,
+				22A5D5082AAD0CF400CC1290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

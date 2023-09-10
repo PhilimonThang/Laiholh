@@ -2,7 +2,7 @@
 //  LaiholhApp.swift
 //  Laiholh
 //
-//  Created by macos on 9/9/23.
+//  Created by Philimon Thang on 9/5/23.
 //
 
 import SwiftUI
